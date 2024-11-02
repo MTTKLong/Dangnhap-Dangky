@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chào mừng</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Tùy chỉnh giao diện tối */
+    body {
+      background-color: #1A1A2E; /* Nền tối */
+      color: #EAEAEA; /* Màu chữ sáng */
+    }
+    .bg-white {
+      background-color: #222831 !important; /* Màu nền cho khung */
+      color: #EAEAEA; /* Màu chữ bên trong khung */
+    }
+    .bg-blue-500 {
+      background-color: #30475E !important; /* Màu nút đăng ký */
+    }
+    .bg-blue-500:hover {
+      background-color: #3B5998 !important; /* Màu nút khi hover */
+    }
+    .text-blue-500 {
+      color: #4e9bde; /* Màu chữ của nút Đăng nhập */
+    }
+    .text-blue-500:hover {
+      color: #76b7f3; /* Màu chữ của nút Đăng nhập khi hover */
+    }
+  </style>
+</head>
+<body class="flex items-center justify-center min-h-screen">
+  <div class="text-center bg-white p-10 rounded-lg shadow-lg">
+    <h1 class="text-2xl font-semibold mb-4">Lần đầu đến với chúng tôi?</h1>
+    <button onclick="window.location.href='register.html'" class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 mb-4">Đăng ký ngay</button>
+    <p class="mt-4">Đã có tài khoản? <button onclick="window.location.href='login.html'" class="text-blue-500 underline">Đăng nhập</button></p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng ký thành công</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Tùy chỉnh giao diện tối */
+    body {
+      background-color: #1A1A2E; /* Màu nền tối */
+      color: #EAEAEA; /* Màu chữ sáng */
+    }
+    .bg-white {
+      background-color: #222831 !important; /* Màu nền khung thông báo */
+      color: #EAEAEA; /* Màu chữ trong khung */
+    }
+    button {
+      background-color: #30475E; /* Màu nền nút */
+      color: #EAEAEA; /* Màu chữ nút */
+    }
+    button:hover {
+      background-color: #3B5998; /* Màu nền nút khi hover */
+    }
+  </style>
+</head>
+<body class="flex items-center justify-center min-h-screen">
+  <div class="bg-white p-10 rounded-lg shadow-lg text-center">
+    <h2 class="text-2xl font-semibold mb-4">Bạn đã đăng ký thành công!</h2>
+    <button onclick="window.location.href='login.html'" class="px-6 py-2 rounded-lg">Xác nhận</button>
+  </div>
+</body>
+</html>
